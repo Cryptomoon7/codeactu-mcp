@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Cryptomoon7/codeactu",
+  "title": "Code actu",
+  "description": "Codes de parrainage vérifiés à la source (France et francophonie) : code, primes, conditions.",
+  "websiteUrl": "https://codeactu.com/assistants-ia/",
+  "version": "1.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://codeactu.com/mcp"
+    }
+  ]
+}
